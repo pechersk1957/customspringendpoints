@@ -11,4 +11,7 @@ public class CustomActuatorConfiguration {
     return new HelloWorldEndpoint();
   }
 
+  @Bean
+  FeaturesEndPoint featuresEndPoint() { return new FeaturesEndPoint(); }
+
 }
